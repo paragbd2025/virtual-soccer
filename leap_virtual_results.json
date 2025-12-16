@@ -1,0 +1,26 @@
+[
+  {
+  "matchNo": 1,
+  "homeTeam": "BRA",
+  "awayTeam": "POL",
+  "fullTimeScore": "0:0",
+  "result": "DRAW",
+  "savedAt": "2025-12-14T06:03:41.648Z"
+},
+{
+"matchNo": 2,
+"homeTeam": "BRA",
+"awayTeam": "POL",
+"fullTimeScore": "1:0",
+"result": "BRA WIN",
+"savedAt": "2025-12-14T06:03:41.660Z"
+},
+{
+  "matchNo": 3,
+  "homeTeam": "BRA",
+  "awayTeam": "POL",
+  "fullTimeScore": "1:2",
+  "result": "BRA WIN",
+  "savedAt": "2025-12-14T06:03:42.660Z"
+}
+]

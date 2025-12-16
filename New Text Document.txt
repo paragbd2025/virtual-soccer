@@ -1,0 +1,737 @@
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\PLAY>node index.js
+Match Results:
+MatchNo: 19, Home Team: ENG, Away Team: GER,
+                        Full Time Score: 0:1, Result: GER WIN,
+                        Saved At: 2025-12-15T15:51:20.026Z, Is Final: No
+MatchNo: 18, Home Team: ESP, Away Team: BEL,
+                        Full Time Score: 2:1, Result: ESP WIN,
+                        Saved At: 2025-12-15T15:51:20.020Z, Is Final: No
+MatchNo: 17, Home Team: BRA, Away Team: POR,
+                        Full Time Score: 2:0, Result: BRA WIN,
+                        Saved At: 2025-12-15T15:50:54.977Z, Is Final: No
+MatchNo: 16, Home Team: POL, Away Team: FRA,
+                        Full Time Score: 0:3, Result: FRA WIN,
+                        Saved At: 2025-12-15T15:50:54.968Z, Is Final: No
+MatchNo: 15, Home Team: BRA, Away Team: POR,
+                        Full Time Score: 1:0, Result: BRA WIN,
+                        Saved At: 2025-12-15T15:50:04.887Z, Is Final: No
+MatchNo: 14, Home Team: POL, Away Team: FRA,
+                        Full Time Score: 0:2, Result: FRA WIN,
+                        Saved At: 2025-12-15T15:50:04.885Z, Is Final: No
+MatchNo: 13, Home Team: ESP, Away Team: BEL,
+                        Full Time Score: 2:0, Result: ESP WIN,
+                        Saved At: 2025-12-15T15:50:04.881Z, Is Final: No
+MatchNo: 12, Home Team: POL, Away Team: FRA,
+                        Full Time Score: 0:1, Result: FRA WIN,
+                        Saved At: 2025-12-15T15:49:39.841Z, Is Final: No
+MatchNo: 11, Home Team: ESP, Away Team: BEL,
+                        Full Time Score: 1:0, Result: ESP WIN,
+                        Saved At: 2025-12-15T15:49:39.838Z, Is Final: No
+MatchNo: 10, Home Team: BRA, Away Team: POR,
+                        Full Time Score: 0:0, Result: DRAW,
+                        Saved At: 2025-12-15T15:49:14.804Z, Is Final: No
+MatchNo: 9, Home Team: POL, Away Team: FRA,
+                        Full Time Score: 0:0, Result: DRAW,
+                        Saved At: 2025-12-15T15:49:14.800Z, Is Final: No
+MatchNo: 8, Home Team: ENG, Away Team: GER,
+                        Full Time Score: 0:0, Result: DRAW,
+                        Saved At: 2025-12-15T15:49:14.797Z, Is Final: No
+MatchNo: 7, Home Team: ESP, Away Team: BEL,
+                        Full Time Score: 0:0, Result: DRAW,
+                        Saved At: 2025-12-15T15:49:14.791Z, Is Final: No
+MatchNo: 6, Home Team: BRA, Away Team: POL,
+                        Full Time Score: 1:0, Result: BRA WIN,
+                        Saved At: 2025-12-14T06:04:21.660Z, Is Final: No
+MatchNo: 5, Home Team: ESP, Away Team: CAN,
+                        Full Time Score: 1:1, Result: DRAW,
+                        Saved At: 2025-12-14T06:04:21.659Z, Is Final: No
+MatchNo: 4, Home Team: BRA, Away Team: POL,
+                        Full Time Score: 0:0, Result: DRAW,
+                        Saved At: 2025-12-14T06:03:41.648Z, Is Final: No
+MatchNo: 3, Home Team: ARG, Away Team: FRA,
+                        Full Time Score: 0:0, Result: DRAW,
+                        Saved At: 2025-12-14T06:03:41.647Z, Is Final: No
+MatchNo: 2, Home Team: ENG, Away Team: NED,
+                        Full Time Score: 0:0, Result: DRAW,
+                        Saved At: 2025-12-14T06:03:41.647Z, Is Final: No
+MatchNo: 1, Home Team: ESP, Away Team: CAN,
+                        Full Time Score: 0:1, Result: CAN WIN,
+                        Saved At: 2025-12-14T06:03:41.644Z, Is Final: No
+Opening Linebet...
+Logging in...
+Loading virtual football...
+
+Scraper running - live match logging + saving completed ones!
+
+Frame not found yet, retrying...
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
+
+NEW COMPLETED MATCH SAVED #20: ARG 0:0 POR → DRAW
+
+
+NEW COMPLETED MATCH SAVED #21: MEX 0:0 POL → DRAW
+
+
+NEW COMPLETED MATCH SAVED #22: FRA 0:0 KOR → DRAW
+
+
+NEW COMPLETED MATCH SAVED #23: BRA 0:0 CRO → DRAW
+
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 20, 'ARG', 'POR', '0:0', 'DRAW', '2025-12-16T05:57:18.417Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 20, 'ARG', 'POR', '0:0', 'DRAW', '2025-12-16T05:57:18.417Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 22, 'FRA', 'KOR', '0:0', 'DRAW', '2025-12-16T05:57:18.445Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 20, 'ARG', 'POR', '0:0', 'DRAW', '2025-12-16T05:57:18.417Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 21, 'MEX', 'POL', '0:0', 'DRAW', '2025-12-16T05:57:18.438Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 21, 'MEX', 'POL', '0:0', 'DRAW', '2025-12-16T05:57:18.438Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+No live match found yet...
+Found 4 matches in list
+
+NEW COMPLETED MATCH SAVED #24: ARG 1:0 POR → ARG WIN
+
+
+NEW COMPLETED MATCH SAVED #25: MEX 1:0 POL → MEX WIN
+
+
+NEW COMPLETED MATCH SAVED #26: BRA 1:0 CRO → BRA WIN
+
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result inserted successfully!
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 25, 'MEX', 'POL', '1:0', 'MEX WIN', '2025-12-16T05:57:43.508Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 24, 'ARG', 'POR', '1:0', 'ARG WIN', '2025-12-16T05:57:43.503Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 24, 'ARG', 'POR', '1:0', 'ARG WIN', '2025-12-16T05:57:43.503Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
+
+NEW COMPLETED MATCH SAVED #27: MEX 2:0 POL → MEX WIN
+
+
+NEW COMPLETED MATCH SAVED #28: FRA 0:1 KOR → KOR WIN
+
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 27, 'MEX', 'POL', '2:0', 'MEX WIN', '2025-12-16T05:58:33.590Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+No live match found yet...
+Found 4 matches in list
+
+NEW COMPLETED MATCH SAVED #29: ARG 2:0 POR → ARG WIN
+
+
+NEW COMPLETED MATCH SAVED #30: MEX 3:0 POL → MEX WIN
+
+
+NEW COMPLETED MATCH SAVED #31: FRA 1:1 KOR → DRAW
+
+
+NEW COMPLETED MATCH SAVED #32: BRA 3:0 CRO → BRA WIN
+
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result inserted successfully!
+Match result inserted successfully!
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 29, 'ARG', 'POR', '2:0', 'ARG WIN', '2025-12-16T05:58:58.644Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 30, 'MEX', 'POL', '3:0', 'MEX WIN', '2025-12-16T05:58:58.649Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 31, 'FRA', 'KOR', '1:1', 'DRAW', '2025-12-16T05:58:58.658Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 30, 'MEX', 'POL', '3:0', 'MEX WIN', '2025-12-16T05:58:58.649Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 29, 'ARG', 'POR', '2:0', 'ARG WIN', '2025-12-16T05:58:58.644Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 29, 'ARG', 'POR', '2:0', 'ARG WIN', '2025-12-16T05:58:58.644Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+No live match found yet...
+Found 4 matches in list
+
+NEW COMPLETED MATCH SAVED #33: ARG 2:1 POR → ARG WIN
+
+
+NEW COMPLETED MATCH SAVED #34: MEX 3:1 POL → MEX WIN
+
+
+NEW COMPLETED MATCH SAVED #35: FRA 2:1 KOR → FRA WIN
+
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result updated successfully!
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 33, 'ARG', 'POR', '2:1', 'ARG WIN', '2025-12-16T05:59:23.713Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 33, 'ARG', 'POR', '2:1', 'ARG WIN', '2025-12-16T05:59:23.713Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+Match result inserted successfully!
+Error inserting match result: Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: match_results.matchNo
+--> in Statement#run([ 34, 'MEX', 'POL', '3:1', 'MEX WIN', '2025-12-16T05:59:23.720Z', 0 ], [Function (anonymous)])
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:76:19)
+    at Database.<anonymous> (D:\PLAY\node_modules\sqlite3\lib\sqlite3.js:20:19)
+    at Statement.<anonymous> (D:\PLAY\index.js:58:16) {
+  errno: 19,
+  code: 'SQLITE_CONSTRAINT',
+  __augmented: true
+}
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
+No live match found yet...
+Found 4 matches in list
