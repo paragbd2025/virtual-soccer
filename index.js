@@ -1,4 +1,4 @@
-// index.js - SIMPLIFIED VERSION WITHOUT CREDENTIALS AFTER POPUP
+// index.js - COMPLETE FIXED VERSION WITH PROPER LOGIN
 const { chromium } = require('playwright');
 const fs = require('fs').promises;
 const sqlite3 = require('sqlite3').verbose();
@@ -49,6 +49,7 @@ class VirtualFootballScraper {
                 }
                 console.log('✅ Connected to database');
 
+                // Create table
                 this.db.run(`
                     CREATE TABLE IF NOT EXISTS match_results (
                                                                  matchNo INTEGER PRIMARY KEY,
@@ -84,6 +85,9 @@ class VirtualFootballScraper {
 
         this.page = await this.browser.newPage();
         await this.page.setViewportSize({ width: 1366, height: 768 });
+
+        // Enable console logging for debugging
+        this.page.on('console', msg => console.log('BROWSER LOG:', msg.text()));
 
         console.log('✅ Browser launched');
     }
@@ -140,26 +144,30 @@ class VirtualFootballScraper {
         console.log('🔐 Logging in and navigating...');
 
         try {
-            // Go directly to virtual football page
-            console.log('   Opening virtual football page...');
-
-            await this.page.goto('https://linebet.com/en/virtualsports?product=266&game=123472', {
+            // Step 1: Go to Linebet homepage
+            console.log('   Opening Linebet homepage...');
+            await this.page.goto('https://linebet.com/en/', {
                 waitUntil: 'domcontentloaded',
-                timeout: 120000
+                timeout: 90000
             });
 
             // Wait for page to load
             await this.page.waitForTimeout(3000);
 
-            // Check if login is needed
-            const needsLogin = await this.checkIfLoginNeeded();
+            // Step 2: Click login button
+            console.log('   Clicking login button...');
+            await this.clickLoginButton();
 
-            if (needsLogin) {
-                console.log('   Login required, attempting to login...');
-                await this.performInitialLogin();
-            } else {
-                console.log('✅ Already logged in!');
-            }
+            // Step 3: Wait for login form and fill credentials
+            console.log('   Filling login credentials...');
+            await this.fillLoginCredentials();
+
+            // Step 4: Navigate to virtual football
+            console.log('   Navigating to virtual football...');
+            await this.page.goto('https://linebet.com/en/virtualsports?product=266&game=123472', {
+                waitUntil: 'domcontentloaded',
+                timeout: 120000
+            });
 
             // Wait for game to load
             await this.waitForGame();
@@ -172,46 +180,102 @@ class VirtualFootballScraper {
         }
     }
 
-    async checkIfLoginNeeded() {
-        try {
-            // Check for login button or login form
-            const loginButton = await this.page.$('button:has-text("Log in"), button:has-text("Login")');
-            const loginForm = await this.page.$('input#username, input[name="username"]');
+    async clickLoginButton() {
+        // Try multiple selectors for the login button
+        const loginSelectors = [
+            // Exact selector from the HTML you provided
+            'button.auth-dropdown-trigger.ui-button.ui-button--size-m.ui-button--theme-primary.ui-button--uppercase.ui-button--rounded',
+            // Text-based selector
+            'button:has-text("Log in")',
+            'button:has-text("Login")',
+            // Partial class match
+            '[class*="auth-dropdown-trigger"]',
+            '[class*="ui-button--theme-primary"]',
+            // Any button with text containing "log in"
+            'button:contains("log in")'
+        ];
 
-            return !!(loginButton || loginForm);
-        } catch (error) {
-            return false;
+        for (const selector of loginSelectors) {
+            try {
+                console.log(`   Trying selector: ${selector}`);
+                await this.page.waitForSelector(selector, { timeout: 5000 });
+
+                const button = await this.page.$(selector);
+                if (button) {
+                    const isVisible = await button.isVisible();
+                    if (isVisible) {
+                        console.log(`   ✓ Found login button with selector: ${selector}`);
+                        await button.click();
+                        await this.page.waitForTimeout(2000);
+                        return true;
+                    }
+                }
+            } catch (error) {
+                // Try next selector
+                console.log(`   ✗ Selector failed: ${selector}`);
+            }
         }
+
+        // If no selector works, try to find by text content
+        try {
+            const buttonByText = await this.page.evaluate(() => {
+                const buttons = document.querySelectorAll('button');
+                for (const button of buttons) {
+                    const text = button.textContent?.toLowerCase() || '';
+                    if (text.includes('log in')) {
+                        return button;
+                    }
+                }
+                return null;
+            });
+
+            if (buttonByText) {
+                await this.page.evaluate(button => button.click(), buttonByText);
+                await this.page.waitForTimeout(2000);
+                return true;
+            }
+        } catch (error) {
+            // Continue to manual login
+        }
+
+        console.log('   ⚠️  Could not find login button automatically');
+        return false;
     }
 
-    async performInitialLogin() {
+    async fillLoginCredentials() {
         try {
-            // Look for login button
-            const loginButton = await this.page.$('button:has-text("Log in"), button:has-text("Login")');
-            if (loginButton) {
-                console.log('   Clicking login button...');
-                await loginButton.click();
-                await this.page.waitForTimeout(2000);
-            }
+            // Wait for login form
+            console.log('   Waiting for login form...');
+            await this.page.waitForSelector('input#username', { timeout: 10000 });
 
-            // Check if login form appears
-            const usernameField = await this.page.$('input#username, input[name="username"]').catch(() => null);
-            if (usernameField) {
-                console.log('   Filling credentials...');
-                await usernameField.fill(username);
+            // Fill username
+            console.log('   Entering username...');
+            await this.page.fill('input#username', username);
 
-                const passwordField = await this.page.$('input#username-password, input[name="password"]');
-                if (passwordField) {
-                    await passwordField.fill(password);
-                    await passwordField.press('Enter');
-                    await this.page.waitForTimeout(5000);
-                    console.log('✅ Login submitted');
-                }
+            // Fill password
+            console.log('   Entering password...');
+            await this.page.fill('input#username-password', password);
+
+            // Submit form
+            console.log('   Submitting login...');
+            await this.page.press('input#username-password', 'Enter');
+
+            // Wait for login to complete
+            await this.page.waitForTimeout(5000);
+
+            // Check if login was successful by looking for user info
+            try {
+                await this.page.waitForSelector('.user-info, .profile, .account', { timeout: 5000 });
+                console.log('✅ Login successful!');
+            } catch (error) {
+                console.log('   ⚠️  Could not verify login, but continuing...');
             }
 
         } catch (error) {
-            console.log('⚠️  Could not perform initial login:', error.message);
-            console.log('💡 Please login manually and press Enter...');
+            console.error('   ❌ Error during login:', error.message);
+            console.log('💡 Please login manually in the browser window');
+            console.log('💡 Then press Enter here to continue...');
+
             await this.waitForManualLogin();
         }
     }
@@ -234,22 +298,24 @@ class VirtualFootballScraper {
     async waitForGame() {
         console.log('   Waiting for game to load...');
 
-        for (let i = 0; i < 20; i++) {
+        for (let i = 0; i < 15; i++) {
             try {
-                await this.page.waitForSelector('iframe', { timeout: 5000 });
+                // Wait for iframe
+                await this.page.waitForSelector('iframe', { timeout: 10000 });
 
                 // Check if iframe has content
                 const iframe = await this.page.$('iframe');
                 const frame = await iframe.contentFrame();
 
-                // Wait for game elements
-                await frame.waitForSelector('.teams-vs-btn, .scoreboard', { timeout: 5000 });
-
-                console.log('✅ Game loaded successfully!');
-                return;
+                if (frame) {
+                    // Wait for game elements
+                    await frame.waitForSelector('.teams-vs-btn, .scoreboard', { timeout: 5000 });
+                    console.log('✅ Game loaded successfully!');
+                    return;
+                }
 
             } catch (error) {
-                console.log(`   Waiting... (${i + 1}/20)`);
+                console.log(`   Waiting for game... (${i + 1}/15)`);
                 await this.page.waitForTimeout(3000);
             }
         }
@@ -286,10 +352,13 @@ class VirtualFootballScraper {
 
     async scrapeCycle() {
         try {
-            // STEP 1: Check for and handle login popup (JUST CLICK, NO CREDENTIALS)
+            // STEP 1: Check for and handle login popup
             await this.handleLoginPopup();
 
-            // STEP 2: Get iframe
+            // STEP 2: Check for inactivity popup
+            await this.handleInactivityPopup();
+
+            // STEP 3: Get iframe
             const iframe = await this.page.$('iframe');
             if (!iframe) {
                 console.log('   ⏳ Iframe not found...');
@@ -302,14 +371,14 @@ class VirtualFootballScraper {
                 return;
             }
 
-            // STEP 3: Extract tournament stage
+            // STEP 4: Extract tournament stage
             const tournamentStage = await this.extractStage(frame);
             this.currentStage = tournamentStage;
 
-            // STEP 4: Try to get live match
+            // STEP 5: Try to get live match
             await this.getLiveMatch(frame);
 
-            // STEP 5: Extract and process matches
+            // STEP 6: Extract and process matches
             const matches = await this.extractMatches(frame);
             console.log(`   📊 Found ${matches.length} match(es) in ${tournamentStage}`);
 
@@ -322,8 +391,27 @@ class VirtualFootballScraper {
         }
     }
 
+    async handleInactivityPopup() {
+        const inactivityPopupSelector = '.overlay-content h1:has-text("Notification of inactivity time") + button';
+
+        try {
+            const inactivityPopupButton = await this.page.$(inactivityPopupSelector);
+            if (inactivityPopupButton) {
+                const isVisible = await inactivityPopupButton.isVisible();
+                if (isVisible) {
+                    console.log('   Found inactivity popup, clicking "Click to initiate gameplay"...');
+                    await inactivityPopupButton.click();
+                    await this.page.waitForTimeout(3000);
+                    console.log('   Inactivity popup handled successfully.');
+                }
+            }
+        } catch (error) {
+            // No inactivity popup found, that's okay
+        }
+    }
+
     async handleLoginPopup() {
-        // Only handle the popup login button, no credentials needed
+        // Handle the popup login button that appears during gameplay
         const popupSelector = 'button.ui-button.ui-button--size-m.ui-button--theme-accent.ui-button--block.ui-button--uppercase.ui-button--rounded';
 
         try {
@@ -530,10 +618,16 @@ class VirtualFootballScraper {
         console.log('\n📊 FINAL SUMMARY:');
         console.log(`   Total matches: ${this.data.length}`);
         console.log(`   Login popups handled: ${this.loginPopupCount}`);
+        console.log(`   JSON file: ${this.jsonFile}`);
 
         if (this.db) {
-            this.db.close();
-            console.log('✅ Database closed');
+            this.db.close((err) => {
+                if (err) {
+                    console.error('❌ Error closing database:', err.message);
+                } else {
+                    console.log('✅ Database closed');
+                }
+            });
         }
 
         if (this.browser) {
@@ -569,7 +663,7 @@ try {
     console.error('\n❌ ERROR: user.js file not found!');
     console.error(`
     Create a file called user.js with:
-    
+
     module.exports = {
         username: 'YOUR_USERNAME',
         password: 'YOUR_PASSWORD'
