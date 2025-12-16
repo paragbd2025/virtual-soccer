@@ -13,6 +13,8 @@ class VirtualFootballScraper {
         this.data = [];
         this.savedKeys = new Set();
         this.jsonFile = 'leap_results_with_odds.json';
+        this.jsonFileOds = 'Odds_Data.json';
+        this.oddsDataFile = 'Odds_Data.json';
         this.currentStage = 'Unknown Stage';
         this.loginPopupCount = 0;
     }
@@ -37,6 +39,389 @@ class VirtualFootballScraper {
         }
     }
 
+    // Method to save odds data to the database
+    async saveOddsToDatabase(oddsData) {
+        return new Promise((resolve, reject) => {
+            this.db.run(`
+            INSERT INTO match_odds
+            (match_reference, home_team, away_team, home_odds, draw_odds, away_odds, bet_type, bet_value, timestamp, tournament_stage)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `, [
+                oddsData.match_reference,
+                oddsData.home_team,
+                oddsData.away_team,
+                oddsData.home_odds,
+                oddsData.draw_odds,
+                oddsData.away_odds,
+                oddsData.bet_type,
+                oddsData.bet_value,
+                oddsData.timestamp,
+                oddsData.tournament_stage
+            ], function(err) {
+                if (err) {
+                    console.error('❌ Error saving odds to database:', err.message);
+                    reject(err);
+                } else {
+                    console.log('   💾 Odds record saved to database');
+                    resolve();
+                }
+            });
+        });
+    }
+
+
+    async extractNextMatchdayOdds(frame, tournamentStage) {
+        try {
+            // Get all popular-event-groups
+            const eventGroups = await frame.$$('.popular-event-groups');
+
+            if (eventGroups.length === 0) {
+                console.log('   No event groups found in Next Matchday');
+                return;
+            }
+
+            console.log(`   Found ${eventGroups.length} match(es) in Next Matchday`);
+
+            const oddsData = [];
+            const timestamp = new Date().toISOString();
+
+            for (let i = 0; i < eventGroups.length; i++) {
+                try {
+                    const matchOdds = await frame.evaluate(el => {
+                        // Extract team names
+                        const homeTeamEl = el.querySelector('.teams-vs__left-asset .team-name');
+                        const awayTeamEl = el.querySelector('.teams-vs__right-asset .team-name');
+
+                        const homeTeam = homeTeamEl ? homeTeamEl.textContent.trim().toUpperCase() : '';
+                        const awayTeam = awayTeamEl ? awayTeamEl.textContent.trim().toUpperCase() : '';
+
+                        // Extract odds values
+                        const betElements = el.querySelectorAll('.bet');
+                        let homeOdds = null, drawOdds = null, awayOdds = null;
+
+                        if (betElements.length >= 3) {
+                            // First element is home win
+                            const homeOddsEl = betElements[0].querySelector('.bet-odd');
+                            homeOdds = homeOddsEl ? parseFloat(homeOddsEl.getAttribute('data-decimal')) : null;
+
+                            // Second element is draw
+                            const drawOddsEl = betElements[1].querySelector('.bet-odd');
+                            drawOdds = drawOddsEl ? parseFloat(drawOddsEl.getAttribute('data-decimal')) : null;
+
+                            // Third element is away win
+                            const awayOddsEl = betElements[2].querySelector('.bet-odd');
+                            awayOdds = awayOddsEl ? parseFloat(awayOddsEl.getAttribute('data-decimal')) : null;
+                        }
+
+                        return {
+                            homeTeam,
+                            awayTeam,
+                            homeOdds,
+                            drawOdds,
+                            awayOdds
+                        };
+                    }, eventGroups[i]);
+
+                    if (matchOdds.homeTeam && matchOdds.awayTeam) {
+                        const oddsEntry = {
+                            match_reference: `${tournamentStage}-${matchOdds.homeTeam}-${matchOdds.awayTeam}`,
+                            home_team: matchOdds.homeTeam,
+                            away_team: matchOdds.awayTeam,
+                            home_odds: matchOdds.homeOdds,
+                            draw_odds: matchOdds.drawOdds,
+                            away_odds: matchOdds.awayOdds,
+                            bet_type: '1X2',
+                            bet_value: matchOdds.homeOdds, // Default to home odds
+                            timestamp: timestamp,
+                            tournament_stage: tournamentStage
+                        };
+
+                        oddsData.push(oddsEntry);
+
+                        // Display in console
+                        console.log(`   📈 ${matchOdds.homeTeam} vs ${matchOdds.awayTeam}:`);
+                        console.log(`      Home: ${matchOdds.homeOdds || 'N/A'}, Draw: ${matchOdds.drawOdds || 'N/A'}, Away: ${matchOdds.awayOdds || 'N/A'}`);
+                    }
+
+                } catch (error) {
+                    console.log(`   ⚠️  Could not extract odds for match ${i + 1}:`, error.message);
+                }
+            }
+
+            // Save odds data
+            if (oddsData.length > 0) {
+                await this.saveOddsData(oddsData);
+                console.log(`   💾 Saved ${oddsData.length} odds record(s) to file`);
+            }
+
+        } catch (error) {
+            console.log('   ⚠️  Error extracting Next Matchday odds:', error.message);
+        }
+    }
+
+    async saveOddsData(oddsData) {
+        try {
+            // Load existing odds data from the JSON file
+            let existingOdds = [];
+            try {
+                const oddsContent = await fs.readFile(this.oddsDataFile, 'utf8');
+                existingOdds = JSON.parse(oddsContent);
+            } catch (error) {
+                existingOdds = [];
+            }
+
+            // Add new odds data (avoid duplicates)
+            const existingKeys = new Set(existingOdds.map(odds =>
+                `${odds.match_reference}-${odds.home_odds}-${odds.draw_odds}-${odds.away_odds}`
+            ));
+
+            let newCount = 0;
+            for (const odds of oddsData) {
+                const key = `${odds.match_reference}-${odds.home_odds}-${odds.draw_odds}-${odds.away_odds}`;
+                if (!existingKeys.has(key)) {
+                    existingOdds.push(odds);
+                    existingKeys.add(key);
+                    newCount++;
+                }
+            }
+
+            // Save to JSON file
+            await fs.writeFile(this.oddsDataFile, JSON.stringify(existingOdds, null, 2));
+
+            if (newCount > 0) {
+                console.log(`   💾 Added ${newCount} new odds record(s) to JSON file`);
+            }
+
+            // Now insert the odds data into the database
+            for (const odds of oddsData) {
+                await this.saveOddsToDatabase(odds);
+            }
+
+        } catch (error) {
+            console.error('   ❌ Error saving odds data:', error.message);
+        }
+    }
+
+    async extractEventGroupOdds(frame, tournamentStage) {
+        try {
+            // Get all popular-event-groups directly
+            const eventGroups = await frame.$$('.popular-event-groups');
+
+            const oddsData = [];
+            const timestamp = new Date().toISOString();
+
+            for (const group of eventGroups) {
+                try {
+                    const matchData = await frame.evaluate(el => {
+                        // Try to find team names
+                        const teamNames = el.querySelectorAll('.team-name');
+                        let homeTeam = '', awayTeam = '';
+
+                        if (teamNames.length >= 2) {
+                            homeTeam = teamNames[0]?.textContent.trim().toUpperCase() || '';
+                            awayTeam = teamNames[1]?.textContent.trim().toUpperCase() || '';
+                        }
+
+                        // Try to find odds
+                        const betOdds = el.querySelectorAll('.bet-odd');
+                        let homeOdds = null, drawOdds = null, awayOdds = null;
+
+                        if (betOdds.length >= 3) {
+                            homeOdds = parseFloat(betOdds[0]?.getAttribute('data-decimal')) || null;
+                            drawOdds = parseFloat(betOdds[1]?.getAttribute('data-decimal')) || null;
+                            awayOdds = parseFloat(betOdds[2]?.getAttribute('data-decimal')) || null;
+                        }
+
+                        return { homeTeam, awayTeam, homeOdds, drawOdds, awayOdds };
+
+                    }, group);
+
+                    if (matchData.homeTeam && matchData.awayTeam) {
+                        const oddsEntry = {
+                            match_reference: `${tournamentStage}-${matchData.homeTeam}-${matchData.awayTeam}`,
+                            home_team: matchData.homeTeam,
+                            away_team: matchData.awayTeam,
+                            home_odds: matchData.homeOdds,
+                            draw_odds: matchData.drawOdds,
+                            away_odds: matchData.awayOdds,
+                            bet_type: '1X2',
+                            bet_value: matchData.homeOdds,
+                            timestamp: timestamp,
+                            tournament_stage: tournamentStage
+                        };
+
+                        oddsData.push(oddsEntry);
+
+                        // Display
+                        if (matchData.homeOdds || matchData.drawOdds || matchData.awayOdds) {
+                            console.log(`   💵 ${matchData.homeTeam} vs ${matchData.awayTeam}:`);
+                            if (matchData.homeOdds) console.log(`      Home: ${matchData.homeOdds}`);
+                            if (matchData.drawOdds) console.log(`      Draw: ${matchData.drawOdds}`);
+                            if (matchData.awayOdds) console.log(`      Away: ${matchData.awayOdds}`);
+                        }
+                    }
+
+                } catch (error) {
+                    // Skip this group
+                }
+            }
+
+            if (oddsData.length > 0) {
+                await this.saveOddsData(oddsData);
+            }
+
+        } catch (error) {
+            console.log('   ⚠️  Error extracting event group odds:', error.message);
+        }
+    }
+
+    async extractBetOddElements(frame, tournamentStage) {
+        try {
+            // Get all .bet-odd elements
+            const betOdds = await frame.$$('.bet-odd');
+
+            const oddsData = [];
+            const timestamp = new Date().toISOString();
+
+            // Group by parent elements to find matches
+            const groupedOdds = new Map();
+
+            for (const betOdd of betOdds) {
+                try {
+                    // Get parent element that might contain team names
+                    const parent = await betOdd.evaluateHandle(el => el.closest('.popular-event-groups, .teams-vs, [class*="event"]'));
+                    const parentKey = await parent.evaluate(el => el.outerHTML.substring(0, 100));
+
+                    if (!groupedOdds.has(parentKey)) {
+                        groupedOdds.set(parentKey, []);
+                    }
+                    groupedOdds.get(parentKey).push(betOdd);
+                } catch (error) {
+                    // Skip this element
+                }
+            }
+
+            // Process each group
+            for (const [parentKey, oddElements] of groupedOdds) {
+                if (oddElements.length >= 3) {
+                    try {
+                        // Get team names from the first element's context
+                        const firstOdd = oddElements[0];
+                        const context = await firstOdd.evaluateHandle(el => el.closest('.popular-event-groups, .teams-vs'));
+
+                        const teamData = await context.evaluate(el => {
+                            const homeTeamEl = el.querySelector('.teams-vs__left-asset .team-name, .team:first-child .team-name');
+                            const awayTeamEl = el.querySelector('.teams-vs__right-asset .team-name, .team:last-child .team-name');
+
+                            return {
+                                homeTeam: homeTeamEl ? homeTeamEl.textContent.trim().toUpperCase() : '',
+                                awayTeam: awayTeamEl ? awayTeamEl.textContent.trim().toUpperCase() : ''
+                            };
+                        });
+
+                        if (teamData.homeTeam && teamData.awayTeam) {
+                            // Get odds values
+                            const oddsValues = [];
+                            for (const oddEl of oddElements.slice(0, 3)) {
+                                const oddsValue = await oddEl.evaluate(el => {
+                                    const decimal = el.getAttribute('data-decimal');
+                                    return decimal ? parseFloat(decimal) : null;
+                                });
+                                oddsValues.push(oddsValue);
+                            }
+
+                            if (oddsValues[0] || oddsValues[1] || oddsValues[2]) {
+                                const oddsEntry = {
+                                    match_reference: `${tournamentStage}-${teamData.homeTeam}-${teamData.awayTeam}`,
+                                    home_team: teamData.homeTeam,
+                                    away_team: teamData.awayTeam,
+                                    home_odds: oddsValues[0],
+                                    draw_odds: oddsValues[1],
+                                    away_odds: oddsValues[2],
+                                    bet_type: '1X2',
+                                    bet_value: oddsValues[0],
+                                    timestamp: timestamp,
+                                    tournament_stage: tournamentStage
+                                };
+
+                                oddsData.push(oddsEntry);
+                                console.log(`   💰 ${teamData.homeTeam} vs ${teamData.awayTeam}: ${oddsValues[0]}/${oddsValues[1]}/${oddsValues[2]}`);
+                            }
+                        }
+                    } catch (error) {
+                        // Skip this group
+                    }
+                }
+            }
+
+            if (oddsData.length > 0) {
+                await this.saveOddsData(oddsData);
+            }
+
+        } catch (error) {
+            console.log('   ⚠️  Error extracting bet-odd elements:', error.message);
+        }
+    }
+
+
+    async extractOddsData(frame, tournamentStage) {
+        try {
+            // Method 1: Look for "Next Matchday" section in the iframe
+            const nextMatchdaySection = await frame.$('.next-bets').catch(() => null);
+
+            if (nextMatchdaySection) {
+                console.log('   Found "Next Matchday" section, extracting odds...');
+                await this.extractNextMatchdayOdds(frame, tournamentStage);
+                return;
+            }
+
+            // Method 2: Look for odds in popular-event-groups
+            const eventGroups = await frame.$$('.popular-event-groups').catch(() => []);
+            if (eventGroups.length > 0) {
+                console.log(`   Found ${eventGroups.length} event group(s), extracting odds...`);
+                await this.extractEventGroupOdds(frame, tournamentStage);
+                return;
+            }
+
+            // Method 3: Look for bet-odd elements anywhere in the frame
+            const betOddElements = await frame.$$('.bet-odd').catch(() => []);
+            if (betOddElements.length > 0) {
+                console.log(`   Found ${betOddElements.length} bet-odd element(s), extracting odds...`);
+                await this.extractBetOddElements(frame, tournamentStage);
+                return;
+            }
+
+            console.log('   ⚠️  No odds data found in this cycle');
+
+        } catch (error) {
+            console.log('   ⚠️  Error extracting odds data:', error.message);
+        }
+    }
+
+    async saveOddsToDatabase(matchData) {
+        return new Promise((resolve, reject) => {
+            this.db.run(`
+            INSERT INTO match_odds 
+            (homeTeam, awayTeam, homeOdds, drawOdds, awayOdds)
+            VALUES (?, ?, ?, ?, ?)
+        `, [
+                matchData.homeTeam,
+                matchData.awayTeam,
+                matchData.odds.home,
+                matchData.odds.draw,
+                matchData.odds.away
+            ], function (err) {
+                if (err) {
+                    console.error('   ❌ Error saving odds to database:', err.message);
+                    reject(err);
+                } else {
+                    console.log('   💾 Odds saved to database');
+                    resolve();
+                }
+            });
+        });
+    }
+
     async setupDatabase() {
         console.log('\n📦 Setting up database...');
 
@@ -49,30 +434,50 @@ class VirtualFootballScraper {
                 }
                 console.log('✅ Connected to database');
 
-                // Create table
+                // Create match_results table
                 this.db.run(`
-                    CREATE TABLE IF NOT EXISTS match_results (
-                                                                 matchNo INTEGER PRIMARY KEY,
-                                                                 tournament_stage TEXT,
-                                                                 homeTeam TEXT NOT NULL,
-                                                                 awayTeam TEXT NOT NULL,
-                                                                 fullTimeScore TEXT NOT NULL,
-                                                                 result TEXT NOT NULL,
-                                                                 savedAt TEXT NOT NULL,
-                                                                 is_final INTEGER DEFAULT 0
-                    )
-                `, (err) => {
+                CREATE TABLE IF NOT EXISTS match_results (
+                    matchNo INTEGER PRIMARY KEY,
+                    tournament_stage TEXT,
+                    homeTeam TEXT NOT NULL,
+                    awayTeam TEXT NOT NULL,
+                    fullTimeScore TEXT NOT NULL,
+                    result TEXT NOT NULL,
+                    savedAt TEXT NOT NULL,
+                    is_final INTEGER DEFAULT 0
+                )
+            `, (err) => {
                     if (err) {
                         console.error('❌ Table creation failed:', err.message);
                         reject(err);
                         return;
                     }
-                    console.log('✅ Database table ready');
+                    console.log('✅ match_results table ready');
+                });
+
+                // Create match_odds table
+                this.db.run(`
+                CREATE TABLE IF NOT EXISTS match_odds (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    homeTeam TEXT NOT NULL,
+                    awayTeam TEXT NOT NULL,
+                    homeOdds REAL NOT NULL,
+                    drawOdds REAL NOT NULL,
+                    awayOdds REAL NOT NULL
+                )
+            `, (err) => {
+                    if (err) {
+                        console.error('❌ Table creation for odds failed:', err.message);
+                        reject(err);
+                        return;
+                    }
+                    console.log('✅ match_odds table ready');
                     resolve();
                 });
             });
         });
     }
+
 
     async launchBrowser() {
         console.log('\n🌐 Launching browser...');
@@ -323,6 +728,8 @@ class VirtualFootballScraper {
         console.log('⚠️  Game loading timeout, but continuing...');
     }
 
+// Other existing methods...
+
     async startScraping() {
         console.log('🎯 Starting to scrape matches...');
         console.log('   Monitoring every 20 seconds');
@@ -350,6 +757,7 @@ class VirtualFootballScraper {
         }
     }
 
+    // Replace extractOdds method with the new extractOddsData method inside your scraping logic
     async scrapeCycle() {
         try {
             // STEP 1: Check for and handle login popup
@@ -382,6 +790,9 @@ class VirtualFootballScraper {
             const matches = await this.extractMatches(frame);
             console.log(`   📊 Found ${matches.length} match(es) in ${tournamentStage}`);
 
+            // STEP 7: Extract odds data (replace old extractOdds call with this)
+            await this.extractOddsData(frame, tournamentStage);
+
             for (const match of matches) {
                 await this.processMatch(match, tournamentStage);
             }
@@ -390,6 +801,8 @@ class VirtualFootballScraper {
             console.log('   ⚠️  Error in scrape cycle:', error.message);
         }
     }
+
+    // Rest of the methods...
 
     async handleInactivityPopup() {
         const inactivityPopupSelector = '.overlay-content h1:has-text("Notification of inactivity time") + button';
@@ -648,6 +1061,7 @@ class VirtualFootballScraper {
 
             await this.loginAndNavigate();
             await this.startScraping();
+
 
         } catch (error) {
             console.error('\n💥 Fatal error:', error.message);

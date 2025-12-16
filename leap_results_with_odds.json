@@ -1,4213 +1,1382 @@
 [
   {
     "matchNo": 1,
-    "homeTeam": "ESP",
-    "awayTeam": "CAN",
-    "fullTimeScore": "0:1",
-    "result": "CAN WIN",
-    "savedAt": "2025-12-14T06:03:41.644Z"
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "ARG",
+    "awayTeam": "POL",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:41:21.967Z",
+    "is_final": 1
   },
   {
     "matchNo": 2,
-    "homeTeam": "ENG",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "POR",
+    "awayTeam": "MEX",
+    "fullTimeScore": "1:1",
     "result": "DRAW",
-    "savedAt": "2025-12-14T06:03:41.647Z"
+    "savedAt": "2025-12-16T14:41:21.999Z",
+    "is_final": 1
   },
   {
     "matchNo": 3,
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "FRA",
+    "awayTeam": "CRO",
     "fullTimeScore": "0:0",
     "result": "DRAW",
-    "savedAt": "2025-12-14T06:03:41.647Z"
+    "savedAt": "2025-12-16T14:41:22.020Z",
+    "is_final": 1
   },
   {
     "matchNo": 4,
-    "homeTeam": "BRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-14T06:03:41.648Z"
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "KOR",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:1",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T14:41:22.039Z",
+    "is_final": 1
   },
   {
     "matchNo": 5,
-    "homeTeam": "ESP",
-    "awayTeam": "CAN",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-14T06:04:21.659Z"
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "FRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "0:1",
+    "result": "CRO WIN",
+    "savedAt": "2025-12-16T14:41:42.134Z",
+    "is_final": 1
   },
   {
     "matchNo": 6,
-    "homeTeam": "BRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:0",
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "KOR",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:2",
     "result": "BRA WIN",
-    "savedAt": "2025-12-14T06:04:21.660Z"
+    "savedAt": "2025-12-16T14:41:42.150Z",
+    "is_final": 1
   },
   {
     "matchNo": 7,
-    "homeTeam": "ESP",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-15T15:49:14.791Z"
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "ARG",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:0",
+    "result": "ARG WIN",
+    "savedAt": "2025-12-16T14:42:02.244Z",
+    "is_final": 1
   },
   {
     "matchNo": 8,
-    "homeTeam": "ENG",
-    "awayTeam": "GER",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-15T15:49:14.797Z"
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "POR",
+    "awayTeam": "MEX",
+    "fullTimeScore": "2:1",
+    "result": "POR WIN",
+    "savedAt": "2025-12-16T14:42:02.259Z",
+    "is_final": 1
   },
   {
     "matchNo": 9,
-    "homeTeam": "POL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:0",
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "FRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "1:1",
     "result": "DRAW",
-    "savedAt": "2025-12-15T15:49:14.800Z"
+    "savedAt": "2025-12-16T14:42:02.274Z",
+    "is_final": 1
   },
   {
     "matchNo": 10,
-    "homeTeam": "BRA",
-    "awayTeam": "POR",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-15T15:49:14.804Z"
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "KOR",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:3",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T14:42:02.290Z",
+    "is_final": 1
   },
   {
     "matchNo": 11,
-    "homeTeam": "ESP",
-    "awayTeam": "BEL",
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "GER",
+    "awayTeam": "SWI",
     "fullTimeScore": "1:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-15T15:49:39.838Z"
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T14:45:12.299Z",
+    "is_final": 1
   },
   {
     "matchNo": 12,
-    "homeTeam": "POL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-15T15:49:39.841Z"
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "BEL",
+    "awayTeam": "ESP",
+    "fullTimeScore": "1:0",
+    "result": "BEL WIN",
+    "savedAt": "2025-12-16T14:45:12.333Z",
+    "is_final": 1
   },
   {
     "matchNo": 13,
-    "homeTeam": "ESP",
-    "awayTeam": "BEL",
-    "fullTimeScore": "2:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-15T15:50:04.881Z"
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "POR",
+    "awayTeam": "FRA",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:45:12.348Z",
+    "is_final": 1
   },
   {
     "matchNo": 14,
-    "homeTeam": "POL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:2",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-15T15:50:04.885Z"
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "BRA",
+    "awayTeam": "ARG",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:45:12.366Z",
+    "is_final": 1
   },
   {
     "matchNo": 15,
+    "tournament_stage": "Quarter Finals",
     "homeTeam": "BRA",
-    "awayTeam": "POR",
+    "awayTeam": "ARG",
     "fullTimeScore": "1:0",
     "result": "BRA WIN",
-    "savedAt": "2025-12-15T15:50:04.887Z"
+    "savedAt": "2025-12-16T14:45:32.464Z",
+    "is_final": 1
   },
   {
     "matchNo": 16,
-    "homeTeam": "POL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:3",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-15T15:50:54.968Z"
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "GER",
+    "awayTeam": "BEL",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:47:53.206Z",
+    "is_final": 1
   },
   {
     "matchNo": 17,
-    "homeTeam": "BRA",
-    "awayTeam": "POR",
-    "fullTimeScore": "2:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-15T15:50:54.977Z"
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POR",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:47:53.252Z",
+    "is_final": 1
   },
   {
     "matchNo": 18,
-    "homeTeam": "ESP",
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "GER",
     "awayTeam": "BEL",
-    "fullTimeScore": "2:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-15T15:51:20.020Z"
+    "fullTimeScore": "1:0",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T14:49:22.938Z",
+    "is_final": 1
   },
   {
     "matchNo": 19,
-    "homeTeam": "ENG",
-    "awayTeam": "GER",
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POR",
+    "awayTeam": "BRA",
     "fullTimeScore": "0:1",
-    "result": "GER WIN",
-    "savedAt": "2025-12-15T15:51:20.026Z"
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T14:49:22.965Z",
+    "is_final": 1
   },
   {
     "matchNo": 20,
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "0:0",
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "GER",
+    "awayTeam": "BEL",
+    "fullTimeScore": "1:1",
     "result": "DRAW",
-    "savedAt": "2025-12-16T05:57:18.417Z"
+    "savedAt": "2025-12-16T14:49:43.042Z",
+    "is_final": 1
   },
   {
     "matchNo": 21,
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POR",
+    "awayTeam": "BRA",
+    "fullTimeScore": "1:1",
     "result": "DRAW",
-    "savedAt": "2025-12-16T05:57:18.438Z"
+    "savedAt": "2025-12-16T14:49:43.468Z",
+    "is_final": 1
   },
   {
     "matchNo": 22,
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T05:57:18.445Z"
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POR",
+    "awayTeam": "BRA",
+    "fullTimeScore": "1:2",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T14:50:03.581Z",
+    "is_final": 1
   },
   {
     "matchNo": 23,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
+    "tournament_stage": "3rd Place",
+    "homeTeam": "GER",
+    "awayTeam": "POR",
     "fullTimeScore": "0:0",
     "result": "DRAW",
-    "savedAt": "2025-12-16T05:57:18.451Z"
+    "savedAt": "2025-12-16T14:51:43.936Z",
+    "is_final": 1
   },
   {
     "matchNo": 24,
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "1:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T05:57:43.503Z"
+    "tournament_stage": "3rd Place",
+    "homeTeam": "BEL",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:51:43.953Z",
+    "is_final": 1
   },
   {
     "matchNo": 25,
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
+    "tournament_stage": "3rd Place",
+    "homeTeam": "BEL",
+    "awayTeam": "BRA",
     "fullTimeScore": "1:0",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T05:57:43.508Z"
+    "result": "BEL WIN",
+    "savedAt": "2025-12-16T14:52:24.105Z",
+    "is_final": 1
   },
   {
     "matchNo": 26,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ESP",
+    "awayTeam": "GER",
     "fullTimeScore": "1:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T05:57:43.517Z"
+    "result": "ESP WIN",
+    "savedAt": "2025-12-16T14:56:26.953Z",
+    "is_final": 1
   },
   {
     "matchNo": 27,
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:0",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T05:58:33.590Z"
-  },
-  {
-    "matchNo": 28,
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "0:1",
-    "result": "KOR WIN",
-    "savedAt": "2025-12-16T05:58:33.595Z"
-  },
-  {
-    "matchNo": 29,
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "2:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T05:58:58.644Z"
-  },
-  {
-    "matchNo": 30,
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "3:0",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T05:58:58.649Z"
-  },
-  {
-    "matchNo": 31,
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T05:58:58.658Z"
-  },
-  {
-    "matchNo": 32,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "3:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T05:58:58.664Z"
-  },
-  {
-    "matchNo": 33,
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "2:1",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T05:59:23.713Z"
-  },
-  {
-    "matchNo": 34,
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "3:1",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T05:59:23.720Z"
-  },
-  {
-    "matchNo": 35,
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "2:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T05:59:23.727Z"
-  },
-  {
-    "matchNo": 36,
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:01:07.833Z"
-  },
-  {
-    "matchNo": 37,
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:01:07.842Z"
-  },
-  {
-    "matchNo": 38,
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:01:07.853Z"
-  },
-  {
-    "matchNo": 39,
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:01:07.860Z"
-  },
-  {
-    "matchNo": 40,
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "0:1",
-    "result": "SEN WIN",
-    "savedAt": "2025-12-16T06:01:32.916Z"
-  },
-  {
-    "matchNo": 41,
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:1",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T06:01:32.923Z"
-  },
-  {
-    "matchNo": 42,
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:01:57.967Z"
-  },
-  {
-    "matchNo": 43,
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:3",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T06:01:57.973Z"
-  },
-  {
-    "matchNo": 44,
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:02:48.098Z"
-  },
-  {
-    "matchNo": 45,
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:02:48.115Z"
-  },
-  {
-    "matchNo": 46,
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T06:02:48.135Z"
-  },
-  {
-    "matchNo": 47,
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:4",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T06:02:48.163Z"
-  },
-  {
-    "matchNo": 48,
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "2:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T06:03:13.237Z"
-  },
-  {
-    "matchNo": 49,
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "3:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:03:13.244Z"
-  },
-  {
-    "matchNo": 50,
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:03:13.254Z"
-  },
-  {
-    "matchNo": 51,
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:5",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T06:03:13.266Z"
-  },
-  {
-    "matchNo": 52,
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:05:19.084Z"
-  },
-  {
-    "matchNo": 53,
-    "homeTeam": "POR",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:05:19.092Z"
-  },
-  {
-    "matchNo": 54,
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T06:05:19.102Z"
-  },
-  {
-    "matchNo": 55,
-    "homeTeam": "KOR",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:05:19.110Z"
-  },
-  {
-    "matchNo": 56,
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "1:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T06:05:44.159Z"
-  },
-  {
-    "matchNo": 57,
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:06:09.206Z"
-  },
-  {
-    "matchNo": 58,
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T06:06:34.244Z"
-  },
-  {
-    "matchNo": 59,
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "2:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T06:06:59.279Z"
-  },
-  {
-    "matchNo": 60,
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:06:59.291Z"
-  },
-  {
-    "matchNo": 61,
-    "homeTeam": "KOR",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T06:07:24.473Z"
-  },
-  {
-    "matchNo": 62,
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:09:06.676Z"
-  },
-  {
-    "matchNo": 63,
-    "homeTeam": "GER",
-    "awayTeam": "SEN",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:09:06.688Z"
-  },
-  {
-    "matchNo": 64,
-    "homeTeam": "SWI",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:09:06.699Z"
-  },
-  {
-    "matchNo": 65,
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:09:06.708Z"
-  },
-  {
-    "matchNo": 66,
-    "homeTeam": "GER",
-    "awayTeam": "SEN",
-    "fullTimeScore": "1:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:09:31.754Z"
-  },
-  {
-    "matchNo": 67,
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T06:09:56.799Z"
-  },
-  {
-    "matchNo": 68,
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:1",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T06:10:46.876Z"
-  },
-  {
-    "matchNo": 69,
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:2",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T06:10:46.887Z"
-  },
-  {
-    "matchNo": 70,
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:2",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T06:11:11.942Z"
-  },
-  {
-    "matchNo": 71,
-    "homeTeam": "SWI",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T06:11:11.953Z"
-  },
-  {
-    "matchNo": 72,
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:3",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T06:11:36.989Z"
-  },
-  {
-    "matchNo": 73,
-    "homeTeam": "SWI",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:11:37.000Z"
-  },
-  {
-    "matchNo": 74,
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:13:17.189Z"
-  },
-  {
-    "matchNo": 75,
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:13:17.199Z"
-  },
-  {
-    "matchNo": 76,
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:13:17.209Z"
-  },
-  {
-    "matchNo": 77,
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:13:17.221Z"
-  },
-  {
-    "matchNo": 78,
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:1",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T06:13:42.278Z"
-  },
-  {
-    "matchNo": 79,
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T06:13:42.289Z"
-  },
-  {
-    "matchNo": 80,
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T06:14:07.349Z"
-  },
-  {
-    "matchNo": 81,
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:3",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T06:14:07.379Z"
-  },
-  {
-    "matchNo": 82,
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "1:0",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T06:14:57.477Z"
-  },
-  {
-    "matchNo": 83,
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:14:57.494Z"
-  },
-  {
-    "matchNo": 84,
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "2:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T06:15:22.589Z"
-  },
-  {
-    "matchNo": 85,
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:3",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T06:15:22.626Z"
-  },
-  {
-    "matchNo": 86,
-    "homeTeam": "GER",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:17:06.647Z"
-  },
-  {
-    "matchNo": 87,
-    "homeTeam": "BEL",
-    "awayTeam": "ESP",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:17:06.665Z"
-  },
-  {
-    "matchNo": 88,
-    "homeTeam": "GER",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T06:17:31.725Z"
-  },
-  {
-    "matchNo": 89,
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T06:17:31.743Z"
-  },
-  {
-    "matchNo": 90,
-    "homeTeam": "GER",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:17:56.798Z"
-  },
-  {
-    "matchNo": 91,
-    "homeTeam": "BEL",
-    "awayTeam": "ESP",
-    "fullTimeScore": "1:0",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T06:17:56.813Z"
-  },
-  {
-    "matchNo": 92,
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:17:56.829Z"
-  },
-  {
-    "matchNo": 93,
-    "homeTeam": "GER",
-    "awayTeam": "ENG",
-    "fullTimeScore": "2:1",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:18:46.923Z"
-  },
-  {
-    "matchNo": 94,
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "3:2",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T06:18:46.941Z"
-  },
-  {
-    "matchNo": 95,
-    "homeTeam": "BRA",
-    "awayTeam": "POR",
-    "fullTimeScore": "3:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T06:18:46.962Z"
-  },
-  {
-    "matchNo": 96,
-    "homeTeam": "GER",
-    "awayTeam": "ENG",
-    "fullTimeScore": "3:1",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:19:12.028Z"
-  },
-  {
-    "matchNo": 97,
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "4:2",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T06:19:12.046Z"
-  },
-  {
-    "matchNo": 98,
-    "homeTeam": "BRA",
-    "awayTeam": "POR",
-    "fullTimeScore": "4:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T06:19:12.065Z"
-  },
-  {
-    "matchNo": 99,
-    "homeTeam": "GER",
-    "awayTeam": "ARG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:26:17.706Z"
-  },
-  {
-    "matchNo": 100,
-    "homeTeam": "BEL",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:26:17.729Z"
-  },
-  {
-    "matchNo": 101,
-    "homeTeam": "GER",
-    "awayTeam": "ARG",
-    "fullTimeScore": "1:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:27:07.817Z"
-  },
-  {
-    "matchNo": 102,
-    "homeTeam": "BEL",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:0",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T06:27:07.840Z"
-  },
-  {
-    "matchNo": 103,
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:29:16.397Z"
-  },
-  {
-    "matchNo": 104,
+    "tournament_stage": "Matchday 1",
     "homeTeam": "SEN",
     "awayTeam": "NED",
     "fullTimeScore": "0:0",
     "result": "DRAW",
-    "savedAt": "2025-12-16T06:29:16.420Z"
+    "savedAt": "2025-12-16T14:56:26.980Z",
+    "is_final": 1
   },
   {
-    "matchNo": 105,
+    "matchNo": 28,
+    "tournament_stage": "Matchday 1",
     "homeTeam": "SWI",
     "awayTeam": "CAN",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:29:16.447Z"
+    "fullTimeScore": "0:1",
+    "result": "CAN WIN",
+    "savedAt": "2025-12-16T14:56:27.010Z",
+    "is_final": 1
   },
   {
-    "matchNo": 106,
+    "matchNo": 29,
+    "tournament_stage": "Matchday 1",
     "homeTeam": "ENG",
     "awayTeam": "BEL",
     "fullTimeScore": "0:0",
     "result": "DRAW",
-    "savedAt": "2025-12-16T06:29:16.473Z"
+    "savedAt": "2025-12-16T14:56:27.034Z",
+    "is_final": 1
   },
   {
-    "matchNo": 107,
+    "matchNo": 30,
+    "tournament_stage": "Matchday 1",
     "homeTeam": "ESP",
     "awayTeam": "GER",
-    "fullTimeScore": "0:1",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:30:06.577Z"
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:56:47.135Z",
+    "is_final": 1
   },
   {
-    "matchNo": 108,
+    "matchNo": 31,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ESP",
+    "awayTeam": "GER",
+    "fullTimeScore": "1:2",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T14:57:27.409Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 32,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "SEN",
+    "awayTeam": "NED",
+    "fullTimeScore": "0:1",
+    "result": "NED WIN",
+    "savedAt": "2025-12-16T14:57:27.423Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 33,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ESP",
+    "awayTeam": "GER",
+    "fullTimeScore": "2:2",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:57:47.531Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 34,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "SEN",
+    "awayTeam": "NED",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:57:47.559Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 35,
+    "tournament_stage": "Matchday 1",
     "homeTeam": "ENG",
     "awayTeam": "BEL",
     "fullTimeScore": "1:0",
     "result": "ENG WIN",
-    "savedAt": "2025-12-16T06:30:06.595Z"
+    "savedAt": "2025-12-16T14:57:47.577Z",
+    "is_final": 1
   },
   {
-    "matchNo": 109,
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "1:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T06:30:56.700Z"
+    "matchNo": 36,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ESP",
+    "awayTeam": "GER",
+    "fullTimeScore": "2:3",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T14:58:07.680Z",
+    "is_final": 1
   },
   {
-    "matchNo": 110,
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:31:21.763Z"
-  },
-  {
-    "matchNo": 111,
+    "matchNo": 37,
+    "tournament_stage": "Matchday 2",
     "homeTeam": "ARG",
     "awayTeam": "POR",
-    "fullTimeScore": "0:1",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T06:33:51.964Z"
-  },
-  {
-    "matchNo": 112,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:1",
+    "fullTimeScore": "0:0",
     "result": "DRAW",
-    "savedAt": "2025-12-16T06:33:51.987Z"
+    "savedAt": "2025-12-16T14:59:48.558Z",
+    "is_final": 1
   },
   {
-    "matchNo": 113,
+    "matchNo": 38,
+    "tournament_stage": "Matchday 2",
     "homeTeam": "MEX",
     "awayTeam": "POL",
-    "fullTimeScore": "0:1",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T06:34:17.042Z"
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:59:48.574Z",
+    "is_final": 1
   },
   {
-    "matchNo": 114,
+    "matchNo": 39,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "FRA",
+    "awayTeam": "KOR",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:59:48.590Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 40,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "BRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T14:59:48.608Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 41,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "ARG",
+    "awayTeam": "POR",
+    "fullTimeScore": "1:0",
+    "result": "ARG WIN",
+    "savedAt": "2025-12-16T15:00:08.746Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 42,
+    "tournament_stage": "Matchday 2",
     "homeTeam": "FRA",
     "awayTeam": "KOR",
     "fullTimeScore": "1:0",
     "result": "FRA WIN",
-    "savedAt": "2025-12-16T06:34:17.062Z"
+    "savedAt": "2025-12-16T15:00:08.762Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 43,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "ARG",
+    "awayTeam": "POR",
+    "fullTimeScore": "2:0",
+    "result": "ARG WIN",
+    "savedAt": "2025-12-16T15:00:29.040Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 44,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "MEX",
+    "awayTeam": "POL",
+    "fullTimeScore": "0:1",
+    "result": "POL WIN",
+    "savedAt": "2025-12-16T15:00:29.057Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 45,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "FRA",
+    "awayTeam": "KOR",
+    "fullTimeScore": "2:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:00:29.093Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 46,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "ARG",
+    "awayTeam": "POR",
+    "fullTimeScore": "2:1",
+    "result": "ARG WIN",
+    "savedAt": "2025-12-16T15:00:49.182Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 47,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "MEX",
+    "awayTeam": "POL",
+    "fullTimeScore": "0:2",
+    "result": "POL WIN",
+    "savedAt": "2025-12-16T15:00:49.197Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 48,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "FRA",
+    "awayTeam": "KOR",
+    "fullTimeScore": "3:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:00:49.211Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 49,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "ARG",
+    "awayTeam": "POR",
+    "fullTimeScore": "3:1",
+    "result": "ARG WIN",
+    "savedAt": "2025-12-16T15:01:29.493Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 50,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "MEX",
+    "awayTeam": "POL",
+    "fullTimeScore": "0:3",
+    "result": "POL WIN",
+    "savedAt": "2025-12-16T15:01:49.722Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 51,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "FRA",
+    "awayTeam": "KOR",
+    "fullTimeScore": "4:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:01:49.738Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 52,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "BRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "1:0",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:01:49.758Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 53,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "MEX",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:3",
+    "result": "POL WIN",
+    "savedAt": "2025-12-16T15:02:09.943Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 54,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "FRA",
+    "awayTeam": "KOR",
+    "fullTimeScore": "5:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:02:09.958Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 55,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "BRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "2:0",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:02:09.977Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 56,
+    "tournament_stage": "Matchday 3",
+    "homeTeam": "ESP",
+    "awayTeam": "SEN",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:03:51.241Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 57,
+    "tournament_stage": "Matchday 3",
+    "homeTeam": "GER",
+    "awayTeam": "NED",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:03:51.264Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 58,
+    "tournament_stage": "Matchday 3",
+    "homeTeam": "SWI",
+    "awayTeam": "ENG",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:03:51.284Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 59,
+    "tournament_stage": "Matchday 3",
+    "homeTeam": "CAN",
+    "awayTeam": "BEL",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:03:51.303Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 60,
+    "tournament_stage": "Matchday 3",
+    "homeTeam": "GER",
+    "awayTeam": "NED",
+    "fullTimeScore": "1:0",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:04:11.416Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 61,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "ARG",
+    "awayTeam": "MEX",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:07:54.507Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 62,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "POR",
+    "awayTeam": "POL",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:07:54.591Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 63,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "FRA",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:07:54.607Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 64,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "KOR",
+    "awayTeam": "CRO",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:07:54.627Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 65,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "ARG",
+    "awayTeam": "MEX",
+    "fullTimeScore": "1:0",
+    "result": "ARG WIN",
+    "savedAt": "2025-12-16T15:08:14.726Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 66,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "POR",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:0",
+    "result": "POR WIN",
+    "savedAt": "2025-12-16T15:08:14.857Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 67,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "FRA",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:1",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:08:14.872Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 68,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "ARG",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:2",
+    "result": "POL WIN",
+    "savedAt": "2025-12-16T15:17:07.210Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 69,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "POR",
+    "awayTeam": "MEX",
+    "fullTimeScore": "2:0",
+    "result": "POR WIN",
+    "savedAt": "2025-12-16T15:17:07.244Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 70,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "FRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "2:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:17:07.270Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 71,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "KOR",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:17:07.285Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 72,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "POR",
+    "awayTeam": "MEX",
+    "fullTimeScore": "3:1",
+    "result": "POR WIN",
+    "savedAt": "2025-12-16T15:17:27.373Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 73,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "FRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "3:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:17:27.390Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 74,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "FRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "4:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:17:47.629Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 75,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "ARG",
+    "awayTeam": "POL",
+    "fullTimeScore": "2:2",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:18:07.753Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 76,
+    "tournament_stage": "Matchday 6",
+    "homeTeam": "FRA",
+    "awayTeam": "CRO",
+    "fullTimeScore": "5:1",
+    "result": "FRA WIN",
+    "savedAt": "2025-12-16T15:18:07.771Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 77,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "GER",
+    "awayTeam": "CAN",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:19:48.099Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 78,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "ENG",
+    "awayTeam": "NED",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:19:48.142Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 79,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "POL",
+    "awayTeam": "FRA",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:19:48.158Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 80,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "ENG",
+    "awayTeam": "NED",
+    "fullTimeScore": "0:1",
+    "result": "NED WIN",
+    "savedAt": "2025-12-16T15:20:08.262Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 81,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "GER",
+    "awayTeam": "CAN",
+    "fullTimeScore": "1:0",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:20:48.444Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 82,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "ENG",
+    "awayTeam": "NED",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:20:48.502Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 83,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "GER",
+    "awayTeam": "CAN",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:21:28.702Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 84,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "GER",
+    "awayTeam": "CAN",
+    "fullTimeScore": "2:2",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:21:48.796Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 85,
+    "tournament_stage": "Quarter Finals",
+    "homeTeam": "GER",
+    "awayTeam": "CAN",
+    "fullTimeScore": "4:2",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:22:08.894Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 86,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "GER",
+    "awayTeam": "NED",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:23:49.564Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 87,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POL",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:23:49.579Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 88,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POL",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:1",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:24:29.728Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 89,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POL",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:2",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:24:50.567Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 90,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "GER",
+    "awayTeam": "NED",
+    "fullTimeScore": "0:2",
+    "result": "NED WIN",
+    "savedAt": "2025-12-16T15:25:30.734Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 91,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POL",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:3",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:25:30.797Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 92,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "POL",
+    "awayTeam": "BRA",
+    "fullTimeScore": "1:3",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:25:50.886Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 93,
+    "tournament_stage": "Semi Finals",
+    "homeTeam": "GER",
+    "awayTeam": "NED",
+    "fullTimeScore": "1:2",
+    "result": "NED WIN",
+    "savedAt": "2025-12-16T15:26:11.013Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 94,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "GER",
+    "awayTeam": "POL",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:27:52.001Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 95,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "NED",
+    "awayTeam": "BRA",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:27:52.027Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 96,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "GER",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:0",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:28:12.157Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 97,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "NED",
+    "awayTeam": "BRA",
+    "fullTimeScore": "1:0",
+    "result": "NED WIN",
+    "savedAt": "2025-12-16T15:28:32.653Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 98,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "GER",
+    "awayTeam": "POL",
+    "fullTimeScore": "2:0",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:29:33.090Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 99,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "NED",
+    "awayTeam": "BRA",
+    "fullTimeScore": "2:1",
+    "result": "NED WIN",
+    "savedAt": "2025-12-16T15:29:33.108Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 100,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "GER",
+    "awayTeam": "POL",
+    "fullTimeScore": "2:1",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:29:53.190Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 101,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "NED",
+    "awayTeam": "BRA",
+    "fullTimeScore": "3:1",
+    "result": "NED WIN",
+    "savedAt": "2025-12-16T15:29:53.205Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 102,
+    "tournament_stage": "3rd Place",
+    "homeTeam": "NED",
+    "awayTeam": "BRA",
+    "fullTimeScore": "3:3",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:30:13.282Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 103,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ESP",
+    "awayTeam": "GER",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:32:13.734Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 104,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "SWI",
+    "awayTeam": "CAN",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:32:13.750Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 105,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ENG",
+    "awayTeam": "BEL",
+    "fullTimeScore": "0:2",
+    "result": "BEL WIN",
+    "savedAt": "2025-12-16T15:32:33.835Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 106,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ENG",
+    "awayTeam": "BEL",
+    "fullTimeScore": "1:2",
+    "result": "BEL WIN",
+    "savedAt": "2025-12-16T15:32:53.913Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 107,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ESP",
+    "awayTeam": "GER",
+    "fullTimeScore": "0:1",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:33:34.063Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 108,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "SEN",
+    "awayTeam": "NED",
+    "fullTimeScore": "2:0",
+    "result": "SEN WIN",
+    "savedAt": "2025-12-16T15:33:34.148Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 109,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ENG",
+    "awayTeam": "BEL",
+    "fullTimeScore": "2:2",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:33:34.170Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 110,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "ESP",
+    "awayTeam": "GER",
+    "fullTimeScore": "0:2",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:33:54.248Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 111,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "SWI",
+    "awayTeam": "CAN",
+    "fullTimeScore": "0:2",
+    "result": "CAN WIN",
+    "savedAt": "2025-12-16T15:33:54.267Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 112,
+    "tournament_stage": "Matchday 1",
+    "homeTeam": "SWI",
+    "awayTeam": "CAN",
+    "fullTimeScore": "1:2",
+    "result": "CAN WIN",
+    "savedAt": "2025-12-16T15:34:14.371Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 113,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "MEX",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:0",
+    "result": "MEX WIN",
+    "savedAt": "2025-12-16T15:36:14.822Z",
+    "is_final": 1
+  },
+  {
+    "matchNo": 114,
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "MEX",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:36:34.903Z",
+    "is_final": 1
   },
   {
     "matchNo": 115,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "MEX",
+    "awayTeam": "POL",
     "fullTimeScore": "1:2",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T06:34:17.083Z"
+    "result": "POL WIN",
+    "savedAt": "2025-12-16T15:36:54.986Z",
+    "is_final": 1
   },
   {
     "matchNo": 116,
+    "tournament_stage": "Matchday 2",
     "homeTeam": "BRA",
     "awayTeam": "CRO",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:35:07.172Z"
+    "fullTimeScore": "0:1",
+    "result": "CRO WIN",
+    "savedAt": "2025-12-16T15:36:55.001Z",
+    "is_final": 1
   },
   {
     "matchNo": 117,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "3:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T06:35:32.236Z"
+    "tournament_stage": "Matchday 2",
+    "homeTeam": "FRA",
+    "awayTeam": "KOR",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:37:55.229Z",
+    "is_final": 1
   },
   {
     "matchNo": 118,
+    "tournament_stage": "Matchday 3",
     "homeTeam": "ESP",
     "awayTeam": "SEN",
     "fullTimeScore": "1:0",
     "result": "ESP WIN",
-    "savedAt": "2025-12-16T06:38:06.504Z"
+    "savedAt": "2025-12-16T15:40:36.729Z",
+    "is_final": 1
   },
   {
     "matchNo": 119,
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "3:1",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T06:38:06.528Z"
+    "tournament_stage": "Matchday 3",
+    "homeTeam": "SWI",
+    "awayTeam": "ENG",
+    "fullTimeScore": "0:1",
+    "result": "ENG WIN",
+    "savedAt": "2025-12-16T15:40:57.171Z",
+    "is_final": 1
   },
   {
     "matchNo": 120,
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T06:38:06.550Z"
+    "tournament_stage": "Matchday 3",
+    "homeTeam": "CAN",
+    "awayTeam": "BEL",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:40:57.187Z",
+    "is_final": 1
   },
   {
     "matchNo": 121,
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "3:3",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T06:39:01.061Z"
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "KOR",
+    "awayTeam": "CRO",
+    "fullTimeScore": "0:1",
+    "result": "CRO WIN",
+    "savedAt": "2025-12-16T15:44:29.704Z",
+    "is_final": 1
   },
   {
     "matchNo": 122,
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "2:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T06:39:01.082Z"
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "FRA",
+    "awayTeam": "BRA",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:44:50.049Z",
+    "is_final": 1
   },
   {
-    "match_hash": "1aaab97f68a4be773240441fe1b1ef24",
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:4",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T07:49:40.608Z",
-    "matchNo": 123
+    "matchNo": 123,
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "ARG",
+    "awayTeam": "MEX",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:45:50.443Z",
+    "is_final": 1
   },
   {
     "matchNo": 124,
-    "homeTeam": "ESP",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:07:00.081Z",
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "FRA",
+    "awayTeam": "BRA",
+    "fullTimeScore": "1:2",
+    "result": "BRA WIN",
+    "savedAt": "2025-12-16T15:45:50.471Z",
     "is_final": 1
   },
   {
     "matchNo": 125,
-    "homeTeam": "BEL",
-    "awayTeam": "GER",
-    "fullTimeScore": "1:0",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T08:07:00.096Z",
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "ARG",
+    "awayTeam": "MEX",
+    "fullTimeScore": "1:2",
+    "result": "MEX WIN",
+    "savedAt": "2025-12-16T15:46:10.613Z",
     "is_final": 1
   },
   {
     "matchNo": 126,
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:07:00.111Z",
+    "tournament_stage": "Matchday 4",
+    "homeTeam": "POR",
+    "awayTeam": "POL",
+    "fullTimeScore": "1:1",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:46:10.632Z",
     "is_final": 1
   },
   {
     "matchNo": 127,
-    "homeTeam": "CRO",
-    "awayTeam": "POR",
-    "fullTimeScore": "2:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T08:07:00.129Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "ESP",
+    "awayTeam": "NED",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:48:11.322Z",
     "is_final": 1
   },
   {
     "matchNo": 128,
-    "homeTeam": "BEL",
-    "awayTeam": "GER",
-    "fullTimeScore": "2:1",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T08:07:20.196Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "GER",
+    "awayTeam": "SEN",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:48:11.338Z",
     "is_final": 1
   },
   {
     "matchNo": 129,
-    "homeTeam": "CRO",
-    "awayTeam": "POR",
-    "fullTimeScore": "3:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T08:07:20.213Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "SWI",
+    "awayTeam": "BEL",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:48:11.356Z",
     "is_final": 1
   },
   {
     "matchNo": 130,
-    "homeTeam": "BEL",
-    "awayTeam": "GER",
-    "fullTimeScore": "3:1",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T08:07:40.281Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "CAN",
+    "awayTeam": "ENG",
+    "fullTimeScore": "0:0",
+    "result": "DRAW",
+    "savedAt": "2025-12-16T15:48:11.372Z",
     "is_final": 1
   },
   {
     "matchNo": 131,
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:07:40.293Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "ESP",
+    "awayTeam": "NED",
+    "fullTimeScore": "1:0",
+    "result": "ESP WIN",
+    "savedAt": "2025-12-16T15:48:31.511Z",
     "is_final": 1
   },
   {
     "matchNo": 132,
-    "homeTeam": "CRO",
-    "awayTeam": "POR",
-    "fullTimeScore": "5:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T08:07:40.308Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "ESP",
+    "awayTeam": "NED",
+    "fullTimeScore": "2:0",
+    "result": "ESP WIN",
+    "savedAt": "2025-12-16T15:48:51.633Z",
     "is_final": 1
   },
   {
     "matchNo": 133,
-    "homeTeam": "CRO",
-    "awayTeam": "POR",
-    "fullTimeScore": "6:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T08:08:00.425Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "SWI",
+    "awayTeam": "BEL",
+    "fullTimeScore": "0:2",
+    "result": "BEL WIN",
+    "savedAt": "2025-12-16T15:48:51.649Z",
     "is_final": 1
   },
   {
     "matchNo": 134,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "ESP",
+    "awayTeam": "NED",
     "fullTimeScore": "2:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:11:20.860Z",
+    "result": "ESP WIN",
+    "savedAt": "2025-12-16T15:49:32.009Z",
     "is_final": 1
   },
   {
     "matchNo": 135,
-    "homeTeam": "ESP",
-    "awayTeam": "BEL",
-    "fullTimeScore": "3:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T08:11:40.905Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "GER",
+    "awayTeam": "SEN",
+    "fullTimeScore": "1:0",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:49:32.026Z",
     "is_final": 1
   },
   {
     "matchNo": 136,
-    "homeTeam": "BEL",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:13:41.593Z",
+    "tournament_stage": "Matchday 5",
+    "homeTeam": "GER",
+    "awayTeam": "SEN",
+    "fullTimeScore": "3:0",
+    "result": "GER WIN",
+    "savedAt": "2025-12-16T15:49:52.178Z",
     "is_final": 1
   },
   {
     "matchNo": 137,
+    "tournament_stage": "Matchday 5",
     "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
+    "awayTeam": "NED",
+    "fullTimeScore": "2:2",
     "result": "DRAW",
-    "savedAt": "2025-12-16T08:13:41.604Z",
+    "savedAt": "2025-12-16T15:50:12.346Z",
     "is_final": 1
   },
   {
     "matchNo": 138,
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:14:01.662Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 139,
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:14:21.714Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 140,
-    "homeTeam": "BEL",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:0",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T08:15:21.844Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 141,
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:3",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:15:21.857Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 142,
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "2:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:23:42.923Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 143,
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T08:30:43.675Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 144,
-    "homeTeam": "POR",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:2",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T08:31:44.152Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 145,
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T08:31:44.163Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 146,
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:1",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T08:32:04.224Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 147,
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:0",
-    "result": "CAN WIN",
-    "savedAt": "2025-12-16T08:34:24.523Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 148,
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:34:44.670Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 149,
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T08:38:05.089Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 150,
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:1",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T08:38:05.102Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 151,
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T08:38:25.165Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 152,
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:38:25.180Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 153,
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:1",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T08:38:45.224Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 154,
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "3:1",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T08:39:25.383Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 155,
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:39:25.398Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 156,
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "2:1",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T08:40:05.529Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 157,
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "3:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T08:40:05.540Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 158,
-    "homeTeam": "NED",
-    "awayTeam": "CAN",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:41:45.775Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 159,
-    "homeTeam": "MEX",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:41:45.788Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 160,
-    "homeTeam": "FRA",
-    "awayTeam": "ARG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:41:45.799Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 161,
-    "homeTeam": "NED",
-    "awayTeam": "CAN",
-    "fullTimeScore": "1:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T08:42:05.869Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 162,
-    "homeTeam": "ENG",
-    "awayTeam": "GER",
-    "fullTimeScore": "1:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T08:42:05.884Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 163,
-    "homeTeam": "MEX",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:42:05.898Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 164,
-    "homeTeam": "NED",
-    "awayTeam": "CAN",
-    "fullTimeScore": "2:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T08:42:25.970Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 165,
-    "homeTeam": "ENG",
-    "awayTeam": "GER",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:42:26.015Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 166,
-    "homeTeam": "MEX",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:42:26.030Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 167,
-    "homeTeam": "FRA",
-    "awayTeam": "ARG",
-    "fullTimeScore": "1:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T08:42:26.044Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 168,
-    "homeTeam": "ENG",
-    "awayTeam": "GER",
-    "fullTimeScore": "1:2",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T08:42:46.087Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 169,
-    "matchday": "Unknown Matchday",
-    "homeTeam": "NED",
-    "awayTeam": "CAN",
-    "fullTimeScore": "3:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T08:43:36.747Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 170,
-    "matchday": "Unknown Matchday",
-    "homeTeam": "ENG",
-    "awayTeam": "GER",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:43:36.757Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 171,
-    "matchday": "Unknown Matchday",
-    "homeTeam": "MEX",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:3",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:43:36.762Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 172,
-    "matchday": "Unknown Matchday",
-    "homeTeam": "FRA",
-    "awayTeam": "ARG",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:43:36.770Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 173,
-    "matchday": "Unknown Matchday",
-    "homeTeam": "ENG",
-    "awayTeam": "GER",
-    "fullTimeScore": "3:2",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T08:43:56.987Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 174,
-    "tournament_stage": "3RD PLACE",
-    "homeTeam": "NED",
-    "awayTeam": "ARG",
-    "fullTimeScore": "1:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T08:51:05.315Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 175,
-    "tournament_stage": "3RD PLACE",
-    "homeTeam": "ENG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T08:51:05.328Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 176,
-    "tournament_stage": "3RD PLACE",
-    "homeTeam": "NED",
-    "awayTeam": "ARG",
-    "fullTimeScore": "2:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T08:51:25.381Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 177,
-    "tournament_stage": "3RD PLACE",
-    "homeTeam": "ENG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T08:51:25.387Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 178,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:54:50.491Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 179,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:54:50.498Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 180,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "0:1",
-    "result": "CAN WIN",
-    "savedAt": "2025-12-16T08:54:50.502Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 181,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ENG",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:54:50.508Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 182,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "0:1",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T08:55:30.669Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 183,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ENG",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:1",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T08:55:30.681Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 184,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:55:50.772Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 185,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:56:10.835Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 186,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:1",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T08:56:10.841Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 187,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ENG",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:56:10.848Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 188,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:58:11.205Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 189,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:58:11.217Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 190,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:58:11.222Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 191,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:58:11.231Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 192,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "1:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T08:58:31.296Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 193,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:58:31.302Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 194,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "1:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T08:58:51.349Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 195,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:58:51.355Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 196,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:58:51.361Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 197,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "2:1",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T08:59:31.486Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 198,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:0",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T08:59:31.491Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 199,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "2:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T08:59:31.496Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 200,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "2:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:59:31.502Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 201,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T08:59:51.579Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 202,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "3:2",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T08:59:51.595Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 203,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "3:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T08:59:51.607Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 204,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:0",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T09:00:11.656Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 205,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "3:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T09:00:11.664Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 206,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T09:01:51.963Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 207,
-    "tournament_stage": "Matchday 3",
+    "tournament_stage": "Matchday 5",
     "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T09:01:51.968Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 208,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T09:01:51.975Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 209,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T09:01:51.980Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 210,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "BEL",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:1",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T10:04:15.990Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 211,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ESP",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:04:16.004Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 212,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "01:09",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T10:05:02.143Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 213,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "00:12",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T10:05:58.573Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 214,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:06:21.666Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 215,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "1:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:07:53.992Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 216,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ENG",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T10:07:54.010Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 217,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "2:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:08:40.190Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 218,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:08:40.207Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 219,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "01:07",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T10:09:03.287Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 220,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "00:44",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T10:09:26.378Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 221,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "00:21",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T10:09:49.462Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 222,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T10:10:35.700Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 223,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:11:21.885Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 224,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:1",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T10:11:45.011Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 225,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "3:1",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T10:12:08.105Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 226,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:12:08.125Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 227,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "3:2",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T10:12:31.228Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 228,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:1",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T10:12:31.240Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 229,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T10:14:45.059Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 230,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:0",
-    "result": "CAN WIN",
-    "savedAt": "2025-12-16T10:14:45.073Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 231,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "1:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:15:05.151Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 232,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:15:05.161Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 233,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:2",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T10:15:45.285Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 234,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:16:05.372Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 235,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T10:16:05.381Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 236,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:3",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T10:16:05.392Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 237,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "2:4",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T10:16:25.473Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 238,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "2:0",
-    "result": "CAN WIN",
-    "savedAt": "2025-12-16T10:16:25.484Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 239,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:1",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T10:50:45.939Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 240,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "3:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:51:06.021Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 241,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T10:51:06.034Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 242,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "4:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:51:26.110Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 243,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "2:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T10:51:26.120Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 244,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:51:26.133Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 245,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "5:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:52:06.275Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 246,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "3:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T10:52:06.290Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 247,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "6:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:52:26.367Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 248,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:1",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T10:52:26.379Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 249,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "4:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T10:52:26.400Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 250,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:2",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T10:52:26.418Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 251,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "6:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T10:52:46.505Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 252,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:2",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T10:52:46.519Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 253,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "4:1",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T10:52:46.538Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 254,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:54:26.814Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 255,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "POR",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:54:26.824Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 256,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:54:26.834Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 257,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "KOR",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:54:26.848Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 258,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "POR",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:0",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T10:54:46.917Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 259,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T10:54:46.927Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 260,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "POR",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:1",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T10:55:06.994Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 261,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T10:55:27.058Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 262,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "KOR",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:1",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T10:55:27.068Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 263,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "1:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T10:56:07.268Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 264,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:3",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T10:56:07.278Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 265,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:4",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T10:56:27.344Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 266,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "KOR",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:2",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T10:56:27.359Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 267,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:56:47.450Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 268,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "POR",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T10:56:47.463Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 269,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:02:39.717Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 270,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:1",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T11:02:39.723Z",
-    "gameStatus": "MEX WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 271,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:02:39.726Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 272,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:02:39.729Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 273,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T11:03:03.344Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 274,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:2",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T11:03:23.410Z",
-    "gameStatus": "MEX WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 275,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "3:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T11:04:03.559Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 276,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T11:04:03.565Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 277,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:3",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T11:04:23.640Z",
-    "gameStatus": "MEX WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 278,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "4:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T11:04:23.647Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 279,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:4",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T11:04:23.652Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 280,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "5:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T11:04:43.776Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 281,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ESP",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:06:24.126Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 282,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "SWI",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:06:24.133Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 283,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:06:24.141Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 284,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:06:24.148Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 285,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "SWI",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T11:07:04.337Z",
-    "gameStatus": "SWI WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 286,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T11:07:04.342Z",
-    "gameStatus": "ARG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 287,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:1",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T11:07:24.393Z",
-    "gameStatus": "POL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 288,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "SWI",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:2",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:08:19.281Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 289,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "2:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T11:08:19.287Z",
-    "gameStatus": "ARG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 290,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:08:19.290Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 291,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ESP",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T11:08:39.378Z",
-    "gameStatus": "ENG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 292,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "SWI",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:3",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:08:39.385Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 293,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "3:1",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T11:08:39.388Z",
-    "gameStatus": "ARG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 294,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "ENG",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:10:23.250Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 295,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:10:23.257Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 296,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "ENG",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T11:11:23.408Z",
-    "gameStatus": "ENG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 297,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T11:11:23.411Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 298,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "ENG",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T11:12:03.565Z",
-    "gameStatus": "ENG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 299,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T11:12:23.623Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 300,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:0",
-    "result": "SEN WIN",
-    "savedAt": "2025-12-16T11:19:15.376Z",
-    "gameStatus": "SEN WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 301,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "1:2",
-    "result": "CAN WIN",
-    "savedAt": "2025-12-16T11:19:35.453Z",
-    "gameStatus": "CAN WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 302,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ENG",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:2",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T11:19:35.465Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 303,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "4:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T11:20:39.154Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 304,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ENG",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:2",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T11:20:39.169Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 305,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "4:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T11:20:59.252Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 306,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:20:59.264Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 307,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "0:1",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T11:22:59.678Z",
-    "gameStatus": "POR WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 308,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "0:1",
-    "result": "KOR WIN",
-    "savedAt": "2025-12-16T11:22:59.689Z",
-    "gameStatus": "KOR WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 309,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:2",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T11:24:19.949Z",
-    "gameStatus": "POL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 310,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:24:40.031Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 311,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:2",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:27:20.493Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 312,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:3",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:27:40.550Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 313,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "2:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T11:28:20.681Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 314,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:4",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:28:20.692Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 315,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "2:1",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T11:28:40.768Z",
-    "gameStatus": "SWI WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 316,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:2",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T11:28:40.786Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 317,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "CRO",
-    "fullTimeScore": "2:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:51:47.635Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 318,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "BEL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:4",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T11:51:47.649Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 319,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:52:07.720Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 320,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "BEL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:0",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T11:52:07.734Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 321,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:52:27.814Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 322,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "BEL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "2:1",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T11:52:27.826Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 323,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:2",
-    "result": "CRO WIN",
-    "savedAt": "2025-12-16T11:52:48.041Z",
-    "gameStatus": "CRO WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 324,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "BEL",
-    "awayTeam": "FRA",
-    "fullTimeScore": "3:2",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T11:52:48.055Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 325,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "1:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T11:55:08.514Z",
-    "gameStatus": "SWI WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 326,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "2:0",
-    "result": "SWI WIN",
-    "savedAt": "2025-12-16T11:55:28.601Z",
-    "gameStatus": "SWI WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 327,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:56:08.868Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 328,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:2",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:56:28.961Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 329,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T11:56:49.052Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 330,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:3",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T11:57:09.133Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 331,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "2:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T11:59:49.696Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 332,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "2:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T12:00:29.838Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 333,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "BRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "3:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T12:00:29.866Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 334,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "2:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T12:00:49.975Z",
-    "gameStatus": "ARG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 335,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:27:28.932Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 336,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T12:27:28.958Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 337,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:27:49.036Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 338,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T12:28:12.644Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 339,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:28:32.725Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 340,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:28:32.749Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 341,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:2",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T12:28:52.840Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 342,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "FRA",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:29:12.911Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 343,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ESP",
-    "awayTeam": "BRA",
-    "fullTimeScore": "3:2",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T12:29:12.931Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 344,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "ESP",
-    "awayTeam": "GER",
-    "fullTimeScore": "2:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T12:32:53.632Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 345,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:3",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T12:32:53.657Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 346,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SEN",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:4",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T12:33:13.743Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 347,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "3:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T12:36:31.682Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 348,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "ARG",
-    "awayTeam": "POR",
-    "fullTimeScore": "3:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T12:36:51.765Z",
-    "gameStatus": "ARG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 349,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "MEX",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:2",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T12:36:51.773Z",
-    "gameStatus": "POL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 350,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "4:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T12:36:51.781Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 351,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:40:35.265Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 352,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "CAN",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:3",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T12:40:35.281Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 353,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "2:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T12:40:59.320Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 354,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:1",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T12:40:59.337Z",
-    "gameStatus": "GER WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 355,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
     "awayTeam": "SEN",
     "fullTimeScore": "3:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T12:41:19.461Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 356,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "2:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T12:44:20.235Z",
-    "gameStatus": "ARG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 357,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "POR",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:0",
-    "result": "POR WIN",
-    "savedAt": "2025-12-16T12:44:20.254Z",
-    "gameStatus": "POR WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 358,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "3:0",
-    "result": "ARG WIN",
-    "savedAt": "2025-12-16T12:45:00.429Z",
-    "gameStatus": "ARG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 359,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "NED",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:54:54.909Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 360,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BEL",
-    "awayTeam": "ESP",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:54:54.925Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 361,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:54:54.950Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 362,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "FRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:54:54.972Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 363,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T12:55:15.081Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 364,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "NED",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T12:55:35.202Z",
-    "gameStatus": "ENG WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 365,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "NED",
-    "awayTeam": "ENG",
-    "fullTimeScore": "2:1",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T12:56:35.498Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 366,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "NED",
-    "awayTeam": "ENG",
-    "fullTimeScore": "3:1",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T12:56:55.591Z",
-    "gameStatus": "NED WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 367,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BEL",
-    "awayTeam": "ESP",
-    "fullTimeScore": "1:0",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T12:56:55.607Z",
-    "gameStatus": "BEL WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 368,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ARG",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T12:56:55.626Z",
-    "gameStatus": "BRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 369,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "FRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:56:55.639Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 370,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BEL",
-    "awayTeam": "ESP",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:57:15.727Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 371,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "NED",
-    "awayTeam": "ESP",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:58:56.230Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 372,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T12:58:56.306Z",
-    "gameStatus": "DRAW",
-    "is_final": 1
-  },
-  {
-    "matchNo": 373,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "NED",
-    "awayTeam": "ESP",
-    "fullTimeScore": "0:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T12:59:16.409Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 374,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:1",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T12:59:16.423Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 375,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:2",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T12:59:36.511Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 376,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:3",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T12:59:56.579Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 377,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "NED",
-    "awayTeam": "ESP",
-    "fullTimeScore": "0:2",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T13:00:36.745Z",
-    "gameStatus": "ESP WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 378,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:3",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:00:36.764Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 379,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:5",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:00:56.844Z",
-    "gameStatus": "FRA WIN",
-    "is_final": 1
-  },
-  {
-    "matchNo": 380,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "NED",
-    "awayTeam": "BRA",
-    "fullTimeScore": "2:0",
-    "result": "NED WIN",
-    "savedAt": "2025-12-16T13:04:09.084Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 381,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ESP",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:04:09.124Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 382,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "GER",
-    "awayTeam": "NED",
-    "fullTimeScore": "3:1",
     "result": "GER WIN",
-    "savedAt": "2025-12-16T13:16:11.048Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 383,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:2",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:16:31.140Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 384,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "ESP",
-    "awayTeam": "SEN",
-    "fullTimeScore": "1:2",
-    "result": "SEN WIN",
-    "savedAt": "2025-12-16T13:17:11.298Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 385,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:3",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:17:11.312Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 386,
-    "tournament_stage": "Matchday 3",
-    "homeTeam": "SWI",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:4",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:17:31.379Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 387,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:1",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T13:19:31.808Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 388,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:2",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T13:19:51.886Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 389,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "KOR",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:19:51.901Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 390,
-    "tournament_stage": "Matchday 4",
-    "homeTeam": "ARG",
-    "awayTeam": "MEX",
-    "fullTimeScore": "1:2",
-    "result": "MEX WIN",
-    "savedAt": "2025-12-16T13:20:11.967Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 391,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:23:12.842Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 392,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "GER",
-    "awayTeam": "SEN",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:23:12.856Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 393,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "SWI",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:23:12.874Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 394,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:23:12.892Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 395,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "1:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T13:23:33.911Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 396,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "GER",
-    "awayTeam": "SEN",
-    "fullTimeScore": "1:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T13:23:33.923Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 397,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:0",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T13:23:54.013Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 398,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "GER",
-    "awayTeam": "SEN",
-    "fullTimeScore": "2:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T13:23:54.024Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 399,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:23:54.037Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 400,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "2:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T13:24:14.111Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 401,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "GER",
-    "awayTeam": "SEN",
-    "fullTimeScore": "4:0",
-    "result": "GER WIN",
-    "savedAt": "2025-12-16T13:24:34.186Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 402,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:24:34.197Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 403,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:3",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:24:54.276Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 404,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "ESP",
-    "awayTeam": "NED",
-    "fullTimeScore": "3:1",
-    "result": "ESP WIN",
-    "savedAt": "2025-12-16T13:25:14.349Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 405,
-    "tournament_stage": "Matchday 5",
-    "homeTeam": "CAN",
-    "awayTeam": "ENG",
-    "fullTimeScore": "1:4",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:25:14.360Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 406,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "0:2",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T13:27:34.746Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 407,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "POR",
-    "awayTeam": "MEX",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:27:34.757Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 408,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "FRA",
-    "awayTeam": "CRO",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:27:34.767Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 409,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:2",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T13:27:54.842Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 410,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:2",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T13:28:34.970Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 411,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "ARG",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:3",
-    "result": "POL WIN",
-    "savedAt": "2025-12-16T13:28:55.049Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 412,
-    "tournament_stage": "Matchday 6",
-    "homeTeam": "KOR",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:3",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T13:29:35.187Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 413,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "GER",
-    "awayTeam": "BEL",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:31:15.453Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 414,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ENG",
-    "awayTeam": "ESP",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:31:15.465Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 415,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "MEX",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:31:15.483Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 416,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ENG",
-    "awayTeam": "ESP",
-    "fullTimeScore": "1:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:31:35.559Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 417,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "1:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T13:31:35.570Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 418,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "MEX",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:31:55.645Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 419,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "BRA",
-    "awayTeam": "POL",
-    "fullTimeScore": "2:0",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T13:31:55.655Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 420,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "GER",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:32:55.838Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 421,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ENG",
-    "awayTeam": "ESP",
-    "fullTimeScore": "2:0",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:32:55.852Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 422,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "MEX",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:2",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:32:55.862Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 423,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "GER",
-    "awayTeam": "BEL",
-    "fullTimeScore": "1:2",
-    "result": "BEL WIN",
-    "savedAt": "2025-12-16T13:33:15.934Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 424,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "ENG",
-    "awayTeam": "ESP",
-    "fullTimeScore": "2:1",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:33:15.952Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 425,
-    "tournament_stage": "Quarter Finals",
-    "homeTeam": "MEX",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:3",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:33:36.018Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 426,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "BEL",
-    "awayTeam": "ENG",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:35:16.274Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 427,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:35:16.286Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 428,
-    "tournament_stage": "Semi Finals",
-    "homeTeam": "FRA",
-    "awayTeam": "BRA",
-    "fullTimeScore": "1:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:37:16.641Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 429,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "BEL",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:39:17.237Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 430,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ENG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "0:0",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:39:17.253Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 431,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "BEL",
-    "awayTeam": "BRA",
-    "fullTimeScore": "0:1",
-    "result": "BRA WIN",
-    "savedAt": "2025-12-16T13:39:37.336Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 432,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ENG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "1:1",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:39:37.349Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 433,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ENG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "2:2",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:40:37.527Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 434,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ENG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "3:2",
-    "result": "ENG WIN",
-    "savedAt": "2025-12-16T13:40:57.600Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 435,
-    "tournament_stage": "3rd Place",
-    "homeTeam": "ENG",
-    "awayTeam": "FRA",
-    "fullTimeScore": "3:3",
-    "result": "DRAW",
-    "savedAt": "2025-12-16T13:41:17.661Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 436,
-    "tournament_stage": "Matchday 1",
-    "homeTeam": "SWI",
-    "awayTeam": "CAN",
-    "fullTimeScore": "0:2",
-    "result": "CAN WIN",
-    "savedAt": "2025-12-16T13:44:18.170Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 437,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "3:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:48:59.677Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 438,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "4:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:49:19.746Z",
-    "is_final": 1
-  },
-  {
-    "matchNo": 439,
-    "tournament_stage": "Matchday 2",
-    "homeTeam": "FRA",
-    "awayTeam": "KOR",
-    "fullTimeScore": "5:0",
-    "result": "FRA WIN",
-    "savedAt": "2025-12-16T13:49:39.808Z",
+    "savedAt": "2025-12-16T15:50:12.360Z",
     "is_final": 1
   }
 ]
