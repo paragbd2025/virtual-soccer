@@ -198,7 +198,7 @@ class VirtualFootballScraper {
             }
 
         } catch (error) {
-            console.error('   ❌ Error saving odds data:', error.message);
+            console.error('❌ Error saving odds data:', error.message);
         }
     }
 

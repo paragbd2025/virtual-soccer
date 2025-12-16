@@ -430,5 +430,53 @@
     "bet_value": 6.68,
     "timestamp": "2025-12-16T15:50:52.722Z",
     "tournament_stage": "Matchday 6"
+  },
+  {
+    "match_reference": "Matchday 6-ARG-POL",
+    "home_team": "ARG",
+    "away_team": "POL",
+    "home_odds": null,
+    "draw_odds": null,
+    "away_odds": null,
+    "bet_type": "1X2",
+    "bet_value": null,
+    "timestamp": "2025-12-16T15:51:57.701Z",
+    "tournament_stage": "Matchday 6"
+  },
+  {
+    "match_reference": "Matchday 6-POR-MEX",
+    "home_team": "POR",
+    "away_team": "MEX",
+    "home_odds": null,
+    "draw_odds": null,
+    "away_odds": null,
+    "bet_type": "1X2",
+    "bet_value": null,
+    "timestamp": "2025-12-16T15:51:57.701Z",
+    "tournament_stage": "Matchday 6"
+  },
+  {
+    "match_reference": "Matchday 6-FRA-CRO",
+    "home_team": "FRA",
+    "away_team": "CRO",
+    "home_odds": null,
+    "draw_odds": null,
+    "away_odds": null,
+    "bet_type": "1X2",
+    "bet_value": null,
+    "timestamp": "2025-12-16T15:51:57.701Z",
+    "tournament_stage": "Matchday 6"
+  },
+  {
+    "match_reference": "Matchday 6-KOR-BRA",
+    "home_team": "KOR",
+    "away_team": "BRA",
+    "home_odds": null,
+    "draw_odds": null,
+    "away_odds": null,
+    "bet_type": "1X2",
+    "bet_value": null,
+    "timestamp": "2025-12-16T15:51:57.701Z",
+    "tournament_stage": "Matchday 6"
   }
 ]
