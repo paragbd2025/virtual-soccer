@@ -1,1 +1,17 @@
-/node_modules
+# Ignore the node_modules directory (and everything inside it)
+node_modules/
+
+# Ignore the matches.db file (in the project root)
+matches.db
+
+# Ignore files with extension `.class` & `.exe`
+*.exe
+*.db
+
+# Ignore `bin` dir
+bin/
+# or
+*/bin/*
+
+# Unignore all `.exe` in `bin` dir
+!*/bin/*.exe
